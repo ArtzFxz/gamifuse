@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Audiowide';
+    src: url(fonts/Audiowide/Audiowide-Regular.ttf);
+
+    font-family: 'Lemon-Milk';
+    src: url(fonts/LEMONMILK-Regular.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-grid{
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    height: 125px;
+    background-color: #3D3D3D;
+}
+
+header div.container-grid {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.img-logo {
+    width: 120px;
+}

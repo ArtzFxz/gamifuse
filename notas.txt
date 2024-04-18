@@ -1,0 +1,5 @@
+
+    /* margin: 30px - Espaçamento de 30px em torno do elemento */
+    /* margin: 0px 30px - Espaçamento de 0px vertical e 30px horizontal */
+    /* margin: 0px 30px 10px - Espaçamento de 0px para cima, 30px horizontal e 10px para baixo */
+    /* margin: 0px 30px 10px 20px - Espaçamento de 0px para cima, 30px para direita, 10px para baixo e 20px para esquerda */

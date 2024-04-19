@@ -2,15 +2,44 @@
     font-family: 'Audiowide';
     src: url(fonts/Audiowide/Audiowide-Regular.ttf);
 
-    font-family: 'Lemon-Milk';
-    src: url(fonts/LEMONMILK-Regular.otf);
 }
 
+@font-face {
+    font-family: 'Merriweather';
+    src: url(fonts/MerriweatherSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Lemon-Milk';
+    src: url(fonts/LEMONMILK-Bold.otf);
+}
+
+:root {
+    --cinza-fundo: #2e2e2e;
+    --cinza-escuro: #262626;
+    --amarelo-paleta: #F2CC0C;
+    --azul-paleta: #91A6FF;
+}
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    height: 100vh;
+    
+    background: rgb(46,46,46);
+    background: linear-gradient(180deg, rgba(46,46,46,1) 28%, rgba(66,66,66,1) 62%, rgba(122,122,122,1) 93%, rgba(176,176,176,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    margin: 0;
 }
 
 .container-grid{
@@ -21,7 +50,7 @@
 
 header {
     height: 125px;
-    background-color: #3D3D3D;
+    background-color: #2e2e2e;
 }
 
 header div.container-grid {
@@ -32,6 +61,99 @@ header div.container-grid {
     
 }
 
-.img-logo {
+.img-favicon {
     width: 120px;
 }
+
+.img-logo {
+    width: 750px;
+    height: 607px;
+    
+}
+
+.menu {
+    width: 700px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+
+    font-family: 'Audiowide';
+    font-size: 24px;
+    
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+
+    transition: text-decoration 1000ms ease;
+}
+
+.menu a:hover {
+    text-decoration-color: var(--amarelo-paleta);
+    color: var(--amarelo-paleta);
+
+}
+
+.conteudo-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo-banner p{
+    color: white;
+    font-family: 'Lemon-Milk';
+    font-size: 90px;
+    padding: 55px;
+    
+}
+
+.conteudo-banner .GF {
+    color: var(--amarelo-paleta);
+}
+.conteudo-banner .Fuse {
+    color: var(--azul-paleta);
+}
+
+#sobre {
+    height: 600px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
+    padding: 100px 25%;
+    margin: 0;
+}
+
+#sobre h2 {
+    font-family: 'Audiowide';
+    color: white;
+    font-size: 28px;
+
+    /* padding: 35px; */
+}
+
+#sobre p {
+    font-family: 'Merriweather';
+    font-size: 17px;
+    color: white;
+
+    text-align: left;
+}
+ #portfolio {
+    margin-bottom: 120px;
+
+    position: relative;
+
+ }
+
+ #portfolio .banner {
+    height: 450px;
+    width: 1550px;
+    display: flex;
+    align-items: center;
+ }

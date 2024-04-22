@@ -152,8 +152,192 @@ header div.container-grid {
  }
 
  #portfolio .banner {
-    height: 450px;
-    width: 1550px;
+    height: 550px;
+    width: 100%;
     display: flex;
     align-items: center;
  }
+
+ #cases {
+    text-align: center;
+
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+ }
+
+ #cases h2 {
+    font-family: 'Audiowide';
+    color: white;
+    font-size: 28px;
+
+    margin-bottom: 70px;
+ }
+
+ .container-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .card {
+    height: 400px;
+    width: 300px;
+
+    color: white;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--cinza-fundo);
+    border-radius: 15px;
+
+ }
+
+ .card h3 {
+    color: white;
+    font-family: 'Audiowide';
+    margin-bottom: 10px;
+
+ }
+
+.card p {
+    font-family: 'Audiowide';
+    font-size: 16px;
+
+    text-align: left;
+
+    color: lightgray;
+}
+
+#banner-galery {
+    margin-bottom: 70px;
+
+    position: relative;
+
+}
+
+#banner-galery .galery {
+    height: 210px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+} 
+
+#galeria {
+    display: flex;
+    justify-content: unset;
+    gap: 20px;
+    justify-content: center;
+    padding: 3%;
+
+}
+
+#galeria img {
+    width: 30%;
+
+}
+
+#galeria .coluna {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+
+}
+
+#galeria .coluna img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#galeria .coluna2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+
+}
+
+#galeria .coluna2 img {
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#parcerias-banner .parcebanner {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+.card-prc {
+    height: 465px;
+    width: 300px;
+
+    color: white;
+
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--cinza-fundo);
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.card-prc h2 {
+    font-family: 'Audiowide';
+    color: white;
+    padding: 3px;
+}
+
+.card-prc p {
+    font-family: 'Merriweather';
+    padding: 2px;
+    color: white;
+}
+
+
+.card-prc img {
+    width: 295px;
+}
+
+#depoimentos img {
+    width: 100%;
+    
+}
+
+#depoimentos2 .card-dep {
+    height: 360px;
+    width: 250px;
+
+    color: white;
+
+    margin-top: 50px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--cinza-fundo);
+    border-radius: 15px;
+
+}
+
+.card-dep h2 {
+    font-family: 'Audiowide';
+    align-items: left;
+}
+
+.card-dep p {
+    font-family: 'Merriweather';
+    align-items: left;
+}

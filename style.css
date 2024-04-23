@@ -34,8 +34,8 @@ html {
 body {
     height: 100vh;
     
-    background: rgb(46,46,46);
-    background: linear-gradient(180deg, rgba(46,46,46,1) 28%, rgba(66,66,66,1) 62%, rgba(122,122,122,1) 93%, rgba(176,176,176,1) 100%);
+    background: rgb(36,36,36);
+    background: linear-gradient(180deg, rgba(36,36,36,1) 0%, rgba(70,70,70,1) 64%, rgba(103,103,103,1) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -210,7 +210,7 @@ header div.container-grid {
 
     text-align: left;
 
-    color: lightgray;
+    color: white;
 }
 
 #banner-galery {
@@ -330,6 +330,7 @@ header div.container-grid {
     background-color: var(--cinza-fundo);
     border-radius: 15px;
 
+    margin-bottom: 50px;
 }
 
 .card-dep h2 {
@@ -340,4 +341,184 @@ header div.container-grid {
 .card-dep p {
     font-family: 'Merriweather';
     align-items: left;
+}
+
+#linha .linhas {
+    background-color: #262626;
+    width: 100%;
+    height: 5px;
+
+    margin-bottom: 50px;
+}
+
+#inscrever {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#inscrever h2 {
+    color: white;
+    font-family: 'Audiowide';
+    font-size: 30px;
+}
+
+.campo {
+    width: 60%;
+
+    margin-bottom: 50px;
+
+    gap: 20px;
+
+    text-align: left;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.campo label {
+    font-family: 'Merriweather';
+    color: white;
+    font-size: 13px;
+}
+
+.campo input {
+    height: 40px;
+
+    color: white;
+    background-color: var(--cinza-fundo);
+    opacity: 90%;
+
+    border: none;
+    border-radius: 7px;
+
+    outline: none;
+
+    text-indent: 10px;
+
+    font-family: "Merriweather";
+    font-size: 17px;
+}
+
+.campo input:focus {
+    outline: 2px solid var(--amarelo-paleta);
+
+}
+
+.campo input:focus, .campo-textarea textarea:focus {
+    outline: 2px solid var(--amarelo-paleta);
+}
+
+#inscrever button {
+    height: 40px;
+    width: 15%;
+
+    position: relative;
+    bottom: 50px;
+
+    font-family: "Audiowide";
+    font-size: 17px;
+    font-weight: 600;
+
+    color: #262626;
+    background-color: var(--amarelo-paleta);
+
+    border: none;
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    text-transform: uppercase;
+
+    transition: background-color 500ms ease ;
+}
+
+#inscrever button:hover {
+    background-color: #968A04;
+
+    cursor: pointer;
+}
+
+#footer-rede {
+    display: flex;
+
+}
+
+footer svg.iconic {
+    width: 75px;
+    height: 75px;
+
+}
+
+footer .telefone {
+    width: 33.3%;
+    height: 600px;
+    border: solid;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .telefone h2 {
+    font-family: 'Audiowide';
+    color: white;
+}
+
+footer .telefone p {
+    font-family: 'Merriweather';
+    color: white;
+}
+
+footer .email {
+    width: 33.3%;
+    height: 600px;
+    border: solid;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .email h2 {
+    font-family: 'Audiowide';
+    color: white;
+}
+
+footer .email p {
+    font-family: 'Merriweather';
+    color: white;
+}
+
+footer .redes {
+    width: 33.3%;
+    height: 600px;
+    border: solid;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .redes h2 {
+    font-family: 'Audiowide';
+    color: white;
+}
+
+footer .redes p {
+    font-family: 'Merriweather';
+    color: white;
+}
+
+footer .mini {
+    width: 35px;
+    height: 35px;
+
+}
+
+footer .rows {
+    display: flex;
+    flex-direction: row;
 }

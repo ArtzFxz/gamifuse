@@ -640,12 +640,6 @@ footer .rows {
         font-size: 25px;        
     }
 
-    #sobre {
-
-        height: 800px;
-
-    }
-
     #portfolio {
 
         margin-top: 0;
@@ -726,9 +720,6 @@ footer .rows {
 }
 
 @media screen and (max-width: 440px) {
-    #sobre {
-        height: 100%;
-    }
 
     #sobre p {
         margin-bottom: 245px;

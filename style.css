@@ -129,7 +129,6 @@ header .container-grid button {
 }
 
 #sobre {
-    height: 600px;
     
     display: flex;
     flex-direction: column;
@@ -657,11 +656,6 @@ footer .rows {
 }
 
 @media screen and (max-width: 640px) {
-    #sobre {
-
-        height: 900px;
-
-    }
 
     #footer-rede {
 
@@ -715,12 +709,6 @@ footer .rows {
     .conteudo-banner img {
 
         width: 100%;
-
-    }
-
-    #sobre {
-
-        height: 900px;
 
     }
 

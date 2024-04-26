@@ -129,11 +129,12 @@ header .container-grid button {
 }
 
 #sobre {
-    height: 600px;
+    height: auto;
     
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 30px;
 
     text-align: center;
     padding: 100px 25%;
@@ -641,12 +642,6 @@ footer .rows {
         font-size: 25px;        
     }
 
-    #sobre {
-
-        height: 800px;
-
-    }
-
     #portfolio {
 
         margin-top: 0;
@@ -659,8 +654,7 @@ footer .rows {
 @media screen and (max-width: 640px) {
     #sobre {
 
-        height: 900px;
-
+        gap: 30px;
     }
 
     #footer-rede {
@@ -718,19 +712,10 @@ footer .rows {
 
     }
 
-    #sobre {
-
-        height: 900px;
-
-    }
-
 }
 
 
 @media screen and (max-width: 470px) {
-    #sobre p {
-        margin-bottom: 85px;
-    }
 
     #inscrever button {
         width: 25%;
@@ -738,13 +723,7 @@ footer .rows {
 }
 
 @media screen and (max-width: 440px) {
-    #sobre {
-        height: 1200px;
-    }
 
-    #sobre p {
-        margin-bottom: 245px;
-    }
 }
 
 @media screen and (max-width: 380px) {

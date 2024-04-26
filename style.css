@@ -737,17 +737,18 @@ footer .rows {
     }
 }
 
-@media screen add (max-width: 440px) {
+@media screen and (max-width: 440px) {
     #sobre {
-        height: 1200px;
+        height: 100%;
     }
 
     #sobre p {
         margin-bottom: 245px;
+        height: 50%;
     }
 }
 
-@media screen add (max-width: 380px) {
+@media screen and (max-width: 380px) {
     #portfolio .banner {
         margin-top: 220px;
 

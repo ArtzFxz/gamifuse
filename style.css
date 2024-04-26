@@ -725,3 +725,32 @@ footer .rows {
     }
 
 }
+
+
+@media screen and (max-width: 470px) {
+    #sobre p {
+        margin-bottom: 85px;
+    }
+
+    #inscrever button {
+        width: 25%;
+    }
+}
+
+@media screen add (max-width: 440px) {
+    #sobre {
+        height: 1200px;
+    }
+
+    #sobre p {
+        margin-bottom: 245px;
+    }
+}
+
+@media screen add (max-width: 380px) {
+    #portfolio .banner {
+        margin-top: 220px;
+
+    }
+   
+}

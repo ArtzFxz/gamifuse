@@ -129,6 +129,7 @@ header .container-grid button {
 }
 
 #sobre {
+    height: 600px;
     
     display: flex;
     flex-direction: column;
@@ -640,6 +641,12 @@ footer .rows {
         font-size: 25px;        
     }
 
+    #sobre {
+
+        height: 800px;
+
+    }
+
     #portfolio {
 
         margin-top: 0;
@@ -650,6 +657,11 @@ footer .rows {
 }
 
 @media screen and (max-width: 640px) {
+    #sobre {
+
+        height: 900px;
+
+    }
 
     #footer-rede {
 
@@ -706,6 +718,12 @@ footer .rows {
 
     }
 
+    #sobre {
+
+        height: 900px;
+
+    }
+
 }
 
 
@@ -719,18 +737,16 @@ footer .rows {
     }
 }
 
-@media screen and (max-width: 440px) {
+@media screen add (max-width: 440px) {
+    #sobre {
+        height: 1200px;
+    }
 
     #sobre p {
         margin-bottom: 245px;
-        height: 50%;
     }
 }
 
-@media screen and (max-width: 380px) {
-    #portfolio .banner {
-        margin-top: 220px;
-
-    }
-   
+@media screen add (max-width: 380px) {
+    
 }

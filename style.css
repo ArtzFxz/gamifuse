@@ -377,7 +377,7 @@ header .container-grid button {
     margin-bottom: 50px;
 }
 
-#inscrever {
+#inscrever form {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -391,7 +391,7 @@ header .container-grid button {
 }
 
 .campo {
-    width: 60%;
+    width: 70%;
 
     margin-bottom: 50px;
 
@@ -439,7 +439,7 @@ header .container-grid button {
 
 #inscrever button {
     height: 40px;
-    width: 15%;
+    width: 20%;
 
     position: relative;
     bottom: 50px;
@@ -555,6 +555,14 @@ footer .rows {
     flex-direction: row;
     gap: 15px;
     
+}
+
+.menu-fechado {
+    display: none;
+}
+
+#icone-barras {
+    display: none;
 }
 
 @media screen and (max-width: 1360px) {

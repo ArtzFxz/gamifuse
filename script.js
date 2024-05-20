@@ -34,4 +34,5 @@ const solicitarInscricao = (event) => {
 
     let dadosForm = {
         email: valorEmail
+    }
 }
